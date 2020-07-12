@@ -1,0 +1,30 @@
+{
+    "name": "stylemix/laravel-module-auth",
+    "description": "Laravel authentication module (based on Concord)",
+    "authors": [
+        {
+            "name": "Azamat H",
+            "email": "azamat@stylemix.net"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "konekt/concord": "~1.5.0",
+        "tymon/jwt-auth": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "StylemixModules\\Auth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StylemixModules\\Auth\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
